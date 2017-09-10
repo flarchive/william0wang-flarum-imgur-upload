@@ -1,0 +1,8 @@
+botfactoryit-imgur-upload:
+  admin:
+    settings:
+        title: Impostazioni Imgur Upload
+  forum:
+    loading: Caricamento...
+    loaded: Fatto!
+    error: Errore
