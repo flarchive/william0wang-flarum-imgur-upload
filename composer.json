@@ -1,0 +1,31 @@
+{
+    "name": "matteocontrini/flarum-imgur-upload",
+    "description": "Upload images from Flarum to Imgur when composing messages",
+    "version": "v3.0.0",
+    "type": "flarum-extension",
+    "license": "GPL-3.0",
+    "authors": [
+      {
+        "name": "Matteo Contrini",
+        "email": "matteo@contrini.it"
+      }
+    ],
+    "require": {
+        "flarum/core": "^0.1.0-beta.8"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Imgur Upload",
+            "icon": {
+                "name": "fas fa-circle",
+                "backgroundColor": "#272727",
+                "color": "#85BF25"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ImgurUpload\\": "src/"
+        }
+    }
+}
